@@ -11,6 +11,9 @@ New features:
 Bugfixes:
 
 Other improvements:
+- Bump PureScript to `0.15.15` (#316 by @pete-murphy)
+- Bump Spago to `1.0.4` (#316 by @pete-murphy)
+- Update to latest package set (#316 by @pete-murphy)
 
 ## [v2023-12-22.1](https://github.com/purescript/trypurescript/releases/tag/v2023-12-22.1)
 
