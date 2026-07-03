@@ -1,0 +1,262 @@
+[
+  {
+    "scenario": "trim-current",
+    "mode": "cold",
+    "maxheap": "8G",
+    "outcome": "ok",
+    "boot_seconds": 154,
+    "compile_ok": true,
+    "max_live_bytes": 1283992024,
+    "mem_in_use_mib": 3749,
+    "allocated_bytes": 444881682704,
+    "sparks": 4482,
+    "mut": {
+      "cpu_s": 190.113,
+      "elapsed_s": 109.11
+    },
+    "gc": {
+      "cpu_s": 63.25,
+      "elapsed_s": 46.375
+    },
+    "total": {
+      "cpu_s": 253.374,
+      "elapsed_s": 155.543
+    },
+    "modules_compiled": 4482,
+    "max_live_mb": 1225
+  },
+  {
+    "scenario": "trim-current",
+    "mode": "warm",
+    "maxheap": "8G",
+    "outcome": "ok",
+    "boot_seconds": 12,
+    "compile_ok": true,
+    "max_live_bytes": 2164651232,
+    "mem_in_use_mib": 4967,
+    "allocated_bytes": 30654157928,
+    "sparks": 4482,
+    "mut": {
+      "cpu_s": 8.661,
+      "elapsed_s": 103.457
+    },
+    "gc": {
+      "cpu_s": 12.588,
+      "elapsed_s": 14.28
+    },
+    "total": {
+      "cpu_s": 21.25,
+      "elapsed_s": 117.795
+    },
+    "modules_compiled": null,
+    "max_live_mb": 2064
+  },
+  {
+    "scenario": "trim-current",
+    "mode": "warm",
+    "maxheap": "3G",
+    "outcome": "ok",
+    "boot_seconds": 14,
+    "compile_ok": true,
+    "max_live_bytes": 2164687904,
+    "mem_in_use_mib": 3029,
+    "allocated_bytes": 30620828888,
+    "sparks": 4482,
+    "mut": {
+      "cpu_s": 9.89,
+      "elapsed_s": 11.835
+    },
+    "gc": {
+      "cpu_s": 14.635,
+      "elapsed_s": 17.991
+    },
+    "total": {
+      "cpu_s": 24.763,
+      "elapsed_s": 29.883
+    },
+    "modules_compiled": null,
+    "max_live_mb": 2064
+  },
+  {
+    "scenario": "trim-cannot-run",
+    "mode": "cold",
+    "maxheap": "8G",
+    "outcome": "ok",
+    "boot_seconds": 139,
+    "compile_ok": true,
+    "max_live_bytes": 1229727440,
+    "mem_in_use_mib": 3597,
+    "allocated_bytes": 424642766432,
+    "sparks": 3769,
+    "mut": {
+      "cpu_s": 175.74,
+      "elapsed_s": 104.455
+    },
+    "gc": {
+      "cpu_s": 62.845,
+      "elapsed_s": 44.27
+    },
+    "total": {
+      "cpu_s": 238.587,
+      "elapsed_s": 148.75
+    },
+    "modules_compiled": 3769,
+    "max_live_mb": 1173
+  },
+  {
+    "scenario": "trim-cannot-run",
+    "mode": "warm",
+    "maxheap": "8G",
+    "outcome": "ok",
+    "boot_seconds": 11,
+    "compile_ok": true,
+    "max_live_bytes": 1991273800,
+    "mem_in_use_mib": 4579,
+    "allocated_bytes": 28095663656,
+    "sparks": 3769,
+    "mut": {
+      "cpu_s": 7.73,
+      "elapsed_s": 14.383
+    },
+    "gc": {
+      "cpu_s": 10.481,
+      "elapsed_s": 10.253
+    },
+    "total": {
+      "cpu_s": 18.243,
+      "elapsed_s": 24.656
+    },
+    "modules_compiled": null,
+    "max_live_mb": 1899
+  },
+  {
+    "scenario": "trim-cannot-run",
+    "mode": "warm",
+    "maxheap": "3G",
+    "outcome": "ok",
+    "boot_seconds": 10,
+    "compile_ok": true,
+    "max_live_bytes": 1991272744,
+    "mem_in_use_mib": 3035,
+    "allocated_bytes": 28225861520,
+    "sparks": 3769,
+    "mut": {
+      "cpu_s": 8.223,
+      "elapsed_s": 13.014
+    },
+    "gc": {
+      "cpu_s": 11.45,
+      "elapsed_s": 11.604
+    },
+    "total": {
+      "cpu_s": 19.674,
+      "elapsed_s": 24.646
+    },
+    "modules_compiled": null,
+    "max_live_mb": 1899
+  },
+  {
+    "scenario": "full",
+    "mode": "cold",
+    "maxheap": "8G",
+    "outcome": "ok",
+    "boot_seconds": 219,
+    "compile_ok": true,
+    "max_live_bytes": 1848603768,
+    "mem_in_use_mib": 5253,
+    "allocated_bytes": 617554650224,
+    "sparks": 7427,
+    "mut": {
+      "cpu_s": 267.939,
+      "elapsed_s": 160.092
+    },
+    "gc": {
+      "cpu_s": 93.293,
+      "elapsed_s": 68.299
+    },
+    "total": {
+      "cpu_s": 361.234,
+      "elapsed_s": 228.417
+    },
+    "modules_compiled": 7427,
+    "max_live_mb": 1763
+  },
+  {
+    "scenario": "full",
+    "mode": "warm",
+    "maxheap": "8G",
+    "outcome": "ok",
+    "boot_seconds": 16,
+    "compile_ok": true,
+    "max_live_bytes": 3263635096,
+    "mem_in_use_mib": 7319,
+    "allocated_bytes": 45556786248,
+    "sparks": 7427,
+    "mut": {
+      "cpu_s": 12.877,
+      "elapsed_s": 14.001
+    },
+    "gc": {
+      "cpu_s": 17.473,
+      "elapsed_s": 19.631
+    },
+    "total": {
+      "cpu_s": 30.352,
+      "elapsed_s": 33.66
+    },
+    "modules_compiled": null,
+    "max_live_mb": 3112
+  },
+  {
+    "scenario": "full",
+    "mode": "warm",
+    "maxheap": "3G",
+    "outcome": "heap-exhausted",
+    "boot_seconds": null,
+    "compile_ok": false,
+    "max_live_bytes": 3471070424,
+    "mem_in_use_mib": 3725,
+    "allocated_bytes": 37049914016,
+    "sparks": 7427,
+    "mut": {
+      "cpu_s": 42.795,
+      "elapsed_s": 8.03
+    },
+    "gc": {
+      "cpu_s": 44.705,
+      "elapsed_s": 81.125
+    },
+    "total": {
+      "cpu_s": 87.502,
+      "elapsed_s": 89.179
+    },
+    "modules_compiled": null,
+    "max_live_mb": 3310
+  },
+  {
+    "scenario": "full",
+    "mode": "cold",
+    "maxheap": "3G",
+    "outcome": "ok",
+    "boot_seconds": 242,
+    "compile_ok": true,
+    "max_live_bytes": 1861675984,
+    "mem_in_use_mib": 3245,
+    "allocated_bytes": 617595081688,
+    "sparks": 7427,
+    "mut": {
+      "cpu_s": 300.56,
+      "elapsed_s": 145.642
+    },
+    "gc": {
+      "cpu_s": 54.264,
+      "elapsed_s": 111.519
+    },
+    "total": {
+      "cpu_s": 354.848,
+      "elapsed_s": 257.187
+    },
+    "modules_compiled": 7427,
+    "max_live_mb": 1775
+  }
+]
